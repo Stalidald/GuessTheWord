@@ -50,6 +50,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'FeriGuessTheWord'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E0419BBB2494217ADDADC2A13ECCD20 }}
-          package: .
+          publish-profile: $
+          package: ./dist/guesstheword
